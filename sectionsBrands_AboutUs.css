@@ -3,6 +3,10 @@
     padding: 100px 100px 100px 100px ;
 }
 
+
+.field_Brands h2 {
+    margin: 0px 0px 90px 0px;
+}
 .brandsImgField{
     display: flex; justify-content: space-between;
     flex-wrap: wrap;

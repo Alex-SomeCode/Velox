@@ -6,85 +6,105 @@
 @import 'asaideFeedback.css';
 @import 'footer.css';
 
-body a{
+body a {
     color: white;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 
+@media (max-width: 1381px) {
 
-@media(max-width:1381px){
-    
-    .portfolioField{
+    .portfolioField {
         padding: 0;
     }
 
-    .positionPortfolioFoto{
+    .positionPortfolioFoto {
         margin-right: 0px;
         margin-top: 3%;
-    } 
+    }
 
-    .positionPortfolioFotos_1-3{
+    .positionPortfolioFotos_1-3 {
         justify-content: space-around;
     }
 
-    .positionPortfolioFotos_4-6{
+    .positionPortfolioFotos_4-6 {
         margin-top: 1%;
     }
 
-    .positionCircles{
+    .positionCircles {
         display: none;
     }
-    .feedbackContainer{
+
+    .feedbackContainer {
         padding: 1%;
     }
 
-    .fieldInput_Name_Subject{
-        margin:1%;
+    .fieldInput_Name_Subject {
+        margin: 1%;
     }
 
-    .leftPart{
+    .leftPart {
         flex: 0 0 100px;
-        
-    }
-    .fieldInput_Name_Subject{
-        margin:1%;
+
     }
 
-    .fieldInputMessage{
+    .fieldInput_Name_Subject {
+        margin: 1%;
+    }
+
+    .fieldInputMessage {
         margin: 3%;
     }
 
-    .input, .inputMessage{
+    .input, .inputMessage {
         font-size: 15px;
     }
 
 
-    #circle{
+    #circle {
         display: none;
     }
 
-    
-    
 }
 
-@media (max-width:640px){
-
-    header{
-        height: 570px;
-    }
-
-
-    h1{
+@media (max-width: 900px) {
+    h1 {
         margin-top: 21%;
         font-size: 45px;
     }
 
-    .textAfterH1{
+    header {
+        height: 570px;
+    }
+
+    .positionDescriptionService {
+        justify-content: center;
+    }
+
+    .review {
+        font-family: 'Lora', serif;
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 640px) {
+
+    header {
+        height: 570px;
+    }
+
+
+    h1 {
+        margin-top: 21%;
+        font-size: 45px;
+    }
+
+    .textAfterH1 {
         font-size: 18px;
     }
 
-    .elementMenuNav{
+    .elementMenuNav {
         margin-left: 10%;
     }
 
@@ -93,57 +113,139 @@ body a{
         height: auto;
     }
 
-    .dimming{
+    .dimming {
         padding: 1% 1% 1% 1%;
     }
 
-    .fieldOurService{
+    .fieldOurService {
         padding: 0;
     }
-    
-    .positionDescriptionService{
+
+    .positionDescriptionService {
         margin-top: 5%;
         justify-content: center;
     }
 
-    .positionPortfolioMenu{
+    .positionPortfolioMenu {
         margin-top: 5%;
     }
 
-    .positionPortfolioFotos_1-3{
+    .positionPortfolioFotos_1-3 {
         margin-top: 5%;
     }
 
-    .feedbackContainer{
+    .feedbackContainer {
         padding: 1% 1% 1% 1%;
     }
-   
-    .contentFooter{
+
+    .contentFooter {
         padding: 0px;
     }
 
-@media(max-width: 427px){
 
-    .portfolioField{
+    .positionNav {
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .positionNav ul li {
+        display: none
+    }
+
+    h1 {
+        margin-top: 150px
+    }
+
+    h1 a {
+        font-size: 25px;
+    }
+
+    .btnField {
+        font-size: 16px;
+        width: 200px;
+        height: 30px;
+    }
+
+    .textAfterH1 {
+        margin-top: 70px;
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .field_Brands h2 {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .portfolioField {
         display: none;
     }
 
-    .field_Brands{
+
+}
+
+@media (max-width: 427px) {
+
+
+    .positionNav {
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .positionNav ul li {
+        display: none
+    }
+
+    h1 {
+        margin-top: 150px
+    }
+
+    h1 a {
+        font-size: 25px;
+    }
+
+    .btnField {
+        font-size: 16px;
+        width: 200px;
+        height: 30px;
+    }
+
+    .textAfterH1 {
+        margin-top: 70px;
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .field_Brands h2 {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .portfolioField {
+        display: none;
+    }
+
+    .field_Brands {
         padding: 1%;
     }
-    .fieldAboutUs{
+
+    .fieldAboutUs {
         display: none;
     }
 
-    .rightPart{
+    .rightPart {
         display: none;
     }
 
-    .feedbackContent{
+    .feedbackContent {
         justify-content: center;
     }
 
 }
 
 
-}
+
