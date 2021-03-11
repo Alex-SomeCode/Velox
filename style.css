@@ -249,9 +249,9 @@ body a {
 }
 
 
-@media (max-width: 300px) {
+@media (max-width: 350px) {
     h1 {
-        margin-top: 90px
+        margin-top: 130px
     }
 }
 
