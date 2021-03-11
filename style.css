@@ -179,10 +179,45 @@ body a {
         margin: 0px 0px 30px 0px;
     }
 
+    .leftPart h3{
+        font-size: 14px;
+    }
+    .leftPart h4{
+        margin-top: 20%;
+        font-size: 12px;
+    }
+
+    .leftPart div{
+        font-size: 10px;
+    }
+
+    .contentFooter div{
+        font-size: 14px;
+    }
+
     .portfolioField {
         display: none;
     }
 
+    .positionLogoServices img{
+        width: 70px;
+    }
+
+    .NameFromLogoServices{
+        font-size: 15px;
+    }
+
+    .textAboutServices{
+        font-size: 12px;
+    }
+
+    .field_Brands{
+        margin-top: 60px;
+    }
+    .feedbackField{
+        margin-top: 10px;
+        padding: 10px;
+    }
 
 }
 
