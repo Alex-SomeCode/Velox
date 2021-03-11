@@ -1,0 +1,46 @@
+.fieldOurService{
+    padding: 60px 100px 100px 100px;
+    flex-grow: 1;
+
+}
+
+h2{
+    /* font-family: 'Lora', serif; */
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.position_border-bottom{
+    display: flex; justify-content: center;
+}
+
+.border-bottom{
+    border-bottom: rgb(0, 165, 255) solid 3px;
+    width: 132px; margin-top: 15px;
+}
+
+.positionDescriptionService{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; margin-top: 80px;    
+}
+
+.positionLogoServices{
+    display: flex; flex-direction: column; align-items: center;   
+}
+
+.NameFromLogoServices{
+    margin-top: 15px; font-size: 20px; font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;  
+}
+
+.border-bottomFrom_Name_LogoServices{
+    border-bottom: black solid 1px; width: 40px; margin-top: 15px;
+}
+
+.textAboutServices{
+    width: 278px; font-size: 15px; margin-top: 15px;
+    color: gray;  font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}

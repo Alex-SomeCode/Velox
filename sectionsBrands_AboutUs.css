@@ -1,0 +1,97 @@
+.field_Brands{
+    flex-grow: 1;
+    padding: 100px 100px 100px 100px ;
+}
+
+.brandsImgField{
+    display: flex; justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.opacityImgBrands{
+    opacity: 0.3;
+}
+
+.fieldAboutUs{
+    flex-grow: 1;
+    background-color: rgb(245, 246, 248);
+    padding: 50px 0px 50px 0px;
+}
+
+.positionFotoClients{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.circleFoto_1{
+    /* background-image: url(img/image.png); */
+    position: relative;
+    overflow: hidden;
+    width: 110px; height: 110px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.circleFoto_2{
+    background-image: url(img/image1.png);
+    background-size: cover;
+    width: 110px; height: 110px;
+    border-radius: 50%;
+    transform: scale(1.2);
+}
+
+.circleFoto_3{
+    background-image: url(img/image2.png);
+    background-size: cover;
+    width: 110px; height: 110px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.arrows{
+    display: flex; justify-content: space-between;
+}
+.arrowLeft{
+    /* background-image: url(img/left.png);
+    background-size: cover; */
+    /* width: 21px; height: 36px;   */
+    margin-left: 120px;  
+}
+
+.arrowRight{
+    /* background-image: url(img/right.png );
+    background-size: cover;
+    width: 21px; height: 36px; */
+    margin-right: 120px;     
+}
+
+.positionCircles{
+    display: flex; justify-content: center;
+}
+
+.circles_1{
+    background-image: url(img/1.png);
+    width: 12px;height: 12px;
+    
+    margin-right: 20px;
+}
+
+.circles_2{
+    background-image: url(img/2.png);
+    width: 12px;height: 12px;
+    
+    margin-right: 20px;
+}
+
+.reviews{
+    display: flex; justify-content:center;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.review{
+    width: 483px; height: 200px;    
+}

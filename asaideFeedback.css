@@ -1,0 +1,120 @@
+.feedbackField{
+    display: flex;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    background: rgb(59, 64, 76);
+}
+
+.feedbackContainer{
+    flex-grow: 1;
+    /* height: 900px; */
+    padding: 75px 100px 75px 100px;
+}
+
+.feedbackContent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leftPart{
+    flex: 0 0 209px;
+    /* background: rgb(9, 64, 76); */
+    /* border-right: 1px solid wheat; */
+    color: white;
+}
+
+.leftPart div{
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30%;
+}
+
+.rightPart{
+    flex-grow: 1;
+    /* background: rgb(9, 64, 76); */
+    color: white;
+}
+
+.positionHeaderRightPart{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blocksHeaderRightPart{
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.marginLeftBlocksHeaderRightPart{
+    margin-left: 50px;
+}
+
+
+.fieldInput_Name_Subject{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 7.0% 0% 0% 20%;
+}
+
+.nameInput{
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sizeContainerName_Subject{
+flex: 0 0 46%;
+}
+
+.container_Name_Subject{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    flex: 0 0 45%;
+    /* height: 30px; */
+    border: none;
+    border-bottom: gray solid 1px;
+    background: whitesmoke;
+    /* margin: 0 2%; */
+    background: rgb(59, 64, 76);
+    color: rgb(0, 165, 255);
+    font-size: 27px;
+    padding: 10px 15px;
+}
+
+.fieldInputMessage{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0% 0% 20.5%;
+}
+
+.inputMessage{
+    flex: 0 0 80%;
+    /* height: 30px; */
+    border: none;
+    border-bottom: gray solid 1px;
+    background: whitesmoke;
+    margin-top: 8%;
+    background: rgb(59, 64, 76);
+    color: rgb(0, 165, 255);
+    font-size: 27px;
+    padding: 10px 15px;
+}
+
+.input:focus, .inputMessage:focus{
+    outline: none;
+    border-bottom: rgb(0, 165, 255) 1px solid;   
+ }
+
+.btnField:hover{
+    outline: none;
+}
+

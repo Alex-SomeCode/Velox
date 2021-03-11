@@ -1,0 +1,21 @@
+footer{
+    display: flex; 
+    /* max-width: 1400px; */
+    margin: 0 auto;
+}
+
+.containerFooter{
+    flex-grow: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contentFooter{
+    display: flex;
+    padding: 50px 100px 50px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    margin-left: 10px;
+}
