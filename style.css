@@ -249,7 +249,7 @@ body a {
 }
 
 
-@media (max-width: 357px) {
+@media (max-width: 370px) {
     h1 {
         margin-top: 130px
     }
@@ -257,7 +257,7 @@ body a {
 
 @media (max-width: 300px) {
     h1 {
-        margin-top: 90px
+        margin-top: 95px
     }
 }
 
