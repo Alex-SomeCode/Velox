@@ -250,14 +250,16 @@ body a {
 
 
 @media (max-width: 370px) {
+    h1 a{
+        font-size: 20px;
+    }
+
+    .textAfterH1{
+        font-size: 14px;
+    }
+
     h1 {
         margin-top: 130px
-    }
-}
-
-@media (max-width: 300px) {
-    h1 {
-        margin-top: 95px
     }
 }
 
